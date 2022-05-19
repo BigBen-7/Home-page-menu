@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "josefin sans" sans-serif;
+}
+.hero {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.meat {
+  color: whitesmoke;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  letter-spacing: 5px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.pe {
+  color: rgb(178, 17, 17);
+  font-weight: 700;
+}
+.d {
+  color: #1a60d2;
+}
+.logo {
+  font-size: 28px;
+  color: rgb(221, 227, 237);
+  font-weight: bold;
+}
+.da {
+  color: #1a60d2;
+  font-size: 40px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(234, 6, 6);
+  transition: 0.3s;
+}
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  background-color: rgb(44, 106, 230);
+  color: #d6c6c8;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  color: rgb(234, 6, 6);
+}
